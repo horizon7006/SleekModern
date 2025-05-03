@@ -1,13 +1,8 @@
 /**
- * @name midnight
- * @description a dark, customizable discord theme.
- * @author refact0r
- * @version 2.1.1
- * @invite nz87hXyvcy
- * @website https://github.com/refact0r/midnight-discord
- * @source https://github.com/refact0r/midnight-discord/blob/master/themes/midnight.theme.css
- * @authorId 508863359777505290
- * @authorLink https://www.refact0r.dev
+ * @name SleekModern
+ * @description a sleek, modern and dark discord theme.
+ * @author Horizon7006
+ * @version 0.1.0
 */
 
 /* import theme modules */
@@ -15,7 +10,7 @@
 
 body {
     /* font options */
-    --font: 'figtree'; /* change to '' for default discord font */
+    --font: 'Inter'; /* change to '' for default discord font */
     --code-font: ''; /* change to '' for default discord font */
     font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
 
@@ -85,8 +80,8 @@ body {
     --text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
 
     /* background and dark colors */
-    --bg-1: hsla(220, 15%, 20%, 1); /* dark buttons when clicked */
-    --bg-2: hsla(220, 15%, 16%, 1); /* dark buttons */
+    --bg-1: hsla(204, 18%, 26%, 1); /* dark buttons when clicked */
+    --bg-2: hsla(204, 15%, 20%, 1); /* dark buttons */
     --bg-3: hsla(220, 15%, 13%, 1); /* spacing, secondary elements */
     --bg-4: hsla(220, 15%, 10%, 1); /* main background color */
     --hover: hsla(221, 19%, 40%, 0.1); /* channels and buttons when hovered */
